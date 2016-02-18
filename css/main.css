@@ -168,20 +168,22 @@ body {
     color:#939393;
 }
 
-.footer-left {
-    padding-top:100px;
+.footer-top {
+    padding-top:60px;
 }
 
-.footer-right {
+.footer-bottom {
     padding-top:30px;
+    padding-bottom:30px;
 }
 
-.footer-right a {
+.footer-bottom a {
     color:#939393;
     text-decoration:none;
 }
 
-.footer-right a:hover {
+.footer-bottom a:hover {
     color:#5080c0;
     text-decoration:none;
+    padding-bottom: 30px;
 }
