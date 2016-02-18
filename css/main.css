@@ -83,7 +83,7 @@ body {
     height:20%;
 }
 
-.button-custom, .button-custom:focus {
+.button-custom, .button-custom:focus, .button-custom:active {
     text-decoration:none;
     background:transparent none repeat scroll 0 0;
     border:2px solid #f3f3f3;
@@ -97,7 +97,7 @@ body {
     margin-top:50px;
 }
 
-.button-custom:hover, .button-custom:active {
+.button-custom:hover {
     text-decoration:none;
     background-color:#70a0e0;
     color:#f3f3f3;
