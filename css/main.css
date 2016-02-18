@@ -1,0 +1,191 @@
+﻿html,body {
+    height:100%;
+}
+
+body {
+    font-family:"Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color:#f3f3f3;
+    font-size:16px;
+    font-weight:300;
+    padding-top:50px;
+}
+
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
+
+.navbar-left {
+    float: left;
+    margin-left: 10px;
+}
+
+.navbar-inverse {
+    border-top:2px solid #5080c0;
+    font-size:14px;
+    font-weight:400;
+
+}
+
+.navbar-inverse li {
+    margin-left:7px;
+    margin-right:7px;
+}
+
+.navbar-inverse .navbar-nav li a {
+    color:#737373;
+}
+
+.navbar-inverse .navbar-nav li a:hover {
+    color:#5080c0;
+}
+
+.navbar-inverse .navbar-nav li a:focus {
+    outline:none;
+}
+
+.section-header {
+    padding-top:100px;
+    padding-bottom:100px;
+    text-align:center;
+}
+
+.section-header p {
+    font-size:18px;
+    font-weight:300;
+    color:#666;
+    line-height:1.2;
+    text-align:center;
+}
+
+.strong {
+    font-size:20px;
+    font-weight:400;
+    padding-top:10px;
+    padding-bottom:10px;
+    line-height:1.3;
+}
+
+.jumbotron {
+    height:100%;
+    text-align:center;
+    color:white;
+    background-color:#5080c0;
+}
+
+.wide-space {
+    height:40%;
+}
+
+.button-custom {
+    background:transparent none repeat scroll 0 0;
+    border:2px solid rgba(255, 255, 255, 0.5);
+    border-radius:3px;
+    color:#ddd;
+    cursor:pointer;
+    font-size:14px;
+    padding:15px 20px;
+    transition:all 0.3s ease 0s;
+    display:inline-block;
+    text-transform:uppercase;
+    margin-top:100px;
+}
+
+.button-custom:focus, .button-custom:active {
+    text-decoration:none;
+    color:#ddd;
+    border-color:#ddd;
+    outline:none;
+}
+
+.button-custom:hover {
+    text-decoration:none;
+    color:#fff;
+    border-color:#fff;
+    background-color:#6090d0;
+    outline:none;
+}
+
+.row-skills h2, .row-expertise h4 {
+    text-align:center;
+}
+
+.div-expertise {
+    margin-bottom:50px;
+}
+
+.icon {
+    text-align:center;
+}
+
+.div-skill {
+    background-color:#ddd;
+    text-align:center;
+    padding:10px 20px 10px 20px;
+    margin-top:20px;
+    margin-bottom:15px;
+}
+
+.div-skill:hover {
+    background-color:#5080c0;
+}
+
+.div-resume {
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.div-resume a {
+    text-decoration:none;
+    color:#333;
+}
+
+.div-resume a:hover {
+    text-decoration:none;
+    color:#5080c0;
+}
+
+.contact-row a {
+    text-decoration:none;
+    color:#5080c0;
+    font-weight:400;
+}
+
+.contact-row a:hover {
+    text-decoration:none;
+    color:#333;
+    font-weight:400;
+}
+
+#footer {
+    width:100%;
+    margin-top:100px;
+    text-align:center;
+    background-color:#101010;
+    color:#939393;
+}
+
+.footer-left {
+    padding-top:100px;
+}
+
+.footer-right {
+    padding-top:30px;
+}
+
+.footer-right a {
+    color:#939393;
+    text-decoration:none;
+}
+
+.footer-right a:hover {
+    color:#5080c0;
+    text-decoration:none;
+}
