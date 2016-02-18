@@ -59,7 +59,6 @@ body {
 
 .section-header p {
     font-size:18px;
-    font-weight:300;
     color:#666;
     line-height:1.2;
     text-align:center;
@@ -76,40 +75,33 @@ body {
 .jumbotron {
     height:100%;
     text-align:center;
-    color:white;
+    color:#f3f3f3;
     background-color:#5080c0;
 }
 
 .wide-space {
-    height:40%;
+    height:20%;
 }
 
-.button-custom {
+.button-custom, .button-custom:focus {
+    text-decoration:none;
     background:transparent none repeat scroll 0 0;
-    border:2px solid rgba(255, 255, 255, 0.5);
-    border-radius:3px;
-    color:#ddd;
+    border:2px solid #f3f3f3;
+    color:#f3f3f3;
     cursor:pointer;
     font-size:14px;
     padding:15px 20px;
     transition:all 0.3s ease 0s;
     display:inline-block;
     text-transform:uppercase;
-    margin-top:100px;
+    margin-top:50px;
 }
 
-.button-custom:focus, .button-custom:active {
+.button-custom:hover, .button-custom:active {
     text-decoration:none;
-    color:#ddd;
-    border-color:#ddd;
-    outline:none;
-}
-
-.button-custom:hover {
-    text-decoration:none;
-    color:#fff;
-    border-color:#fff;
-    background-color:#6090d0;
+    background-color:#70a0e0;
+    color:#f3f3f3;
+    border-color:#f3f3f3;
     outline:none;
 }
 
@@ -126,7 +118,7 @@ body {
 }
 
 .div-skill {
-    background-color:#ddd;
+    background-color:#d9d9d9;
     text-align:center;
     padding:10px 20px 10px 20px;
     margin-top:20px;
@@ -135,6 +127,10 @@ body {
 
 .div-skill:hover {
     background-color:#5080c0;
+}
+
+.experience p {
+    text-align: justify;
 }
 
 .div-resume {
