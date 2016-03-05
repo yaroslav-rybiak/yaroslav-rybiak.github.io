@@ -101,5 +101,6 @@ var textArray = [
 ];
 
 var randomNumber = Math.floor(Math.random()*textArray.length);
-randomQuote = textArray[randomNumber];
-document.getElementById("random-quote").innerHTML = "Random motivational quote:<br>" + randomQuote;
+$(document).ready(function() {
+   $('#random-quote').html('Random motivational quote:<br>' + randomQuote);
+});
