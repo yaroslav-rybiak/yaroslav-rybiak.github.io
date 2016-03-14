@@ -3,7 +3,7 @@ body {
     font-weight: 400;
     font-size: 16px;
     color: #9ca0a5;
-    background: #39404b url("../img/landing-background.png") repeat;
+    background: #39404b url("../img/background.png") repeat;
 }
 
 header img {
@@ -17,8 +17,8 @@ header img {
     margin: 0 auto;
     max-width: 960px;
     -webkit-box-shadow: 0 10px 5px -5px #333;
-       -moz-box-shadow: 0 10px 5px -5px #333;
-            box-shadow: 0 15px 15px -5px #333;
+    -moz-box-shadow: 0 10px 5px -5px #333;
+    box-shadow: 0 15px 15px -5px #333;
 }
 
 .carousel-control.left, .carousel-control.right {
@@ -74,11 +74,8 @@ a, a:hover {
     text-decoration: underline;
 }
 
-footer {
-    padding-top: 100px;
-    text-align: center;
-}
-
+/* Icons in field that .has-feedback-left
+-------------------------------------------------- */
 .fa.form-control-feedback {
     line-height: 34px; /* @input-height-base; */
 }
@@ -106,4 +103,27 @@ footer {
 }
 .has-feedback-left input.input-lg {
     padding-left: 46px;  @input-height-large;
+}
+
+.container {
+    margin-bottom: 100px;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    text-align: center;
 }
