@@ -103,11 +103,11 @@ var textArray = [
 $(document).ready(function() {
     var randomNumber = Math.floor(Math.random()*textArray.length);
     var randomQuote = textArray[randomNumber];
-   $('#random-quote').html('Random motivational quote:<br>' + randomQuote);
+   $('#random-quote').html('Random motivational quote:<br><br>' + randomQuote);
 });
 
 $('#random-quote').click(function() {
     randomNumber = Math.floor(Math.random()*textArray.length);
     randomQuote = textArray[randomNumber];
-    $('#random-quote').html('Random motivational quote:<br>' + randomQuote);
+    $('#random-quote').html('Random motivational quote:<br><br>' + randomQuote);
 });
