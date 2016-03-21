@@ -3,7 +3,7 @@ body {
     font-weight: 400;
     font-size: 16px;
     color: #b7b7b7;
-    background: #39404b url("../img/procorp-background.png") repeat;
+    background: #aaa url("../img/procorp-background.png") repeat;
 }
 
 .header-container {
@@ -25,12 +25,7 @@ body {
 @media (max-width: 500px) {
     .header-right {
         float: left;
-        padding-left: 40px;
     }
-}
-
-.custom-pull-right {
-    float: right;
 }
 
 @media (max-width: 768px) {
@@ -61,7 +56,6 @@ header i {
 }
 
 .custom-search {
-
     border-radius: 0 !important;
     box-shadow: inset 0 0 2px #656a71;
     border: 1px solid #3c3c3c;
@@ -103,6 +97,17 @@ header i {
     color: #ea0099;
     font-size: 96px;
     margin-top: -25px;
+}
+
+@media (max-width: 500px) {
+    .jumbotron h1 {
+        font-size: 48px;
+        margin-top: -15px;
+    }
+
+    .jumbotron h2 {
+        font-size: 24px;
+    }
 }
 
 .btn-custom, .btn-custom:hover, .btn-custom:active, .btn-custom:focus {
