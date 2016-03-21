@@ -100,8 +100,14 @@ var textArray = [
     '&quot;Your time is limited, so don&#8217;t waste it living someone else&#8217;s life.&quot;<br><cite>Steve Jobs</cite>'
 ];
 
-var randomNumber = Math.floor(Math.random()*textArray.length);
-randomQuote = textArray[randomNumber];
 $(document).ready(function() {
+    var randomNumber = Math.floor(Math.random()*textArray.length);
+    var randomQuote = textArray[randomNumber];
    $('#random-quote').html('Random motivational quote:<br>' + randomQuote);
+});
+
+$('#random-quote').click(function() {
+    randomNumber = Math.floor(Math.random()*textArray.length);
+    randomQuote = textArray[randomNumber];
+    $('#random-quote').html('Random motivational quote:<br>' + randomQuote);
 });
