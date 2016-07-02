@@ -127,6 +127,7 @@ body {
 
 .disclaimer {
     font-style: italic;
+    font-size: 14px;
 }
 /* Custom colors and styles ending */
 
@@ -180,14 +181,15 @@ thead {
 .rating {
     font-size: 20px;
     font-weight: bold;
-    left: -3px;
-    top: -10px;
+    left: 90px;
+    top: -30px;
 }
 
 .rate-it {
     font-size: 10px;
     position: relative;
-    top: -10px;
+    left: 85px;
+    top: -30px;
     margin: 0 0 0 0;
     padding: 0 0 0 10px;
 }
@@ -320,3 +322,21 @@ ul li a i:hover {
 .how-to {
     margin-bottom: 20px;
 }
+
+
+/* dirty tricks for table's first column beginning */
+.control-label {
+    position: relative;
+    top: 10px;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+.logo {
+    position: relative;
+    top: 20px;
+    width: 90px;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+/* dirty tricks for table's first column ending */
